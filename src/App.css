@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+  display: inline-block;
+}
+
+.App-place-logo {
+  position: absolute;
+}
+.App-place-title {
+  width: 100%;
+  display: inline-block;
+}
+
+.App-header {
+  background-color: #222;
+  height: 100px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.App-header > h1{
+  display: inline-block;
+}
+
+.App-footer {
+  background-color: #555;
+  height: 20px;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  clear: both;
+}
+
+.App-footer > h5{
+  margin:0;
+}
+
+.App-leftbar {
+  width: 10%;
+  display: inline-block;
+  background-color: coral;
+  min-height: 500px;
+  float: left;
+}
+
+.App-content {
+  width: 90%;
+  display: inline-block;
+  min-height: 500px;
+  float: left;
+}
+
+.App-content > p {
+  padding: 50px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-menu {
+  padding: 0;
+  padding-top: 30px;
+  margin:0;
+  list-style: none;
+}
+
+.App-menu > a{
+  color: black;
+  text-decoration: none;
+}
+
+.App-menu li {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.App-menu li:hover {
+  background-color: azure;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
